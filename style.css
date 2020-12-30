@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(img/6.jpg);
+    background-size: cover;
+    height: 1061px;
+}
+.top{
+padding: 20px;
+background: rgb(19, 43, 71);    
+}
+a{
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(252, 166, 5)
+}
+.Home, .Gallery, .Event, .Feedback, .About, .Contact{
+    margin-right: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form[name="search"]{
+    display: inline;
+}
+.search{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 6%;
+    font-size: 17px;
+}
+input[type="search"]::placeholder{
+    color: #6b6b6b;
+}
+.submit{
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(252, 166, 5);
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    right: 6%;
+}
+.submit:hover{
+    background: #fff;
+    color: rgb( 252, 166, 5 );
+    border-left: 1px solid #999;
+}
+.login_div{
+    margin-top: 180px;
+    margin-left: 560px;
+    background: rgba( 0, 0, 0, 0.7 );
+    width: 420px;
+    height: 380px;
+    border-radius: 15px;
+}
+.L{
+    padding-top: 1px;
+    margin-left: 165px;
+}
+.Login{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="text"] , [type="password"]{
+    display: block;
+    margin: 25px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb( 252, 166, 5 );
+    background: none;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 13px;
+
+}
+.in_one, .in_two{
+    margin-left: 50px;
+}
+.in_three{
+    margin-left: 75px;
+}
+::placeholder{
+    color: #fff;
+}
+.login{
+    background: rgb( 252, 166, 5 );
+    border: none;
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+.login:hover{
+    background: #fff;
+    color: rgb( 252, 166, 5 );
+    font-weight: bold;
+}
+.team{
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    bottom: 0%;
+}
