@@ -1,16 +1,16 @@
 body{
     padding: 0;
     margin: 0;
-    background: url(6.jpg);
+    background: url(img/6.jpg);
     background-size: cover;
-    height: 1061px;
+    height: 900px;
 }
 .top{
 padding: 20px;
 background: rgb(19, 43, 71);    
 }
 a{
-    font-size: 16px;
+    font-size: 22px;
     color: #fff;
     text-decoration: none;
 }
@@ -54,7 +54,7 @@ input[type="search"]::placeholder{
 }
 .login_div{
     margin-top: 180px;
-    margin-left: 560px;
+    margin-left: 635px;
     background: rgba( 0, 0, 0, 0.7 );
     width: 420px;
     height: 380px;
